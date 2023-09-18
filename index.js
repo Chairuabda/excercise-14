@@ -4,6 +4,7 @@ let operand3;
 let prom;
 
 function inputOperator() {
+
   prom = prompt(
     `Pilih Menu:\n 1. Penjumlahan \n 2. Pengurangan \n 3. Pembagian \n 4. Perkalian \n 5. Pangkat 2 \n 6. Akar Pangkat 2 \n 7. Akar pangkat 3`
   );
@@ -21,12 +22,12 @@ function inputOperator() {
       break;
     case "3":
       masukkanAngka2();
-      Pembagian(operand1, operand2);
+      pembagian(operand1, operand2);
       konfirm();
       break;
     case "4":
       masukkanAngka2();
-      Perkalian(operand1, operand2);
+      perkalian(operand1, operand2);
       konfirm();
       break;
     case "5":
@@ -66,11 +67,11 @@ function pengurangan(operand1, operand2) {
   alert(`${operand1} - ${operand2} = ${operand1 - operand2}`);
 }
 
-function Pembagian(operand1, operand2) {
+function pembagian(operand1, operand2) {
   alert(`${operand1} / ${operand2} = ${operand1 / operand2}`);
 }
 
-function Perkalian(operand1, operand2) {
+function perkalian(operand1, operand2) {
   alert(`${operand1} * ${operand2} = ${operand1 * operand2}`);
 }
 
@@ -92,6 +93,5 @@ function konfirm() {
   } else {
     alert("Terimakasih :)");
   }
-}
 
 inputOperator();
