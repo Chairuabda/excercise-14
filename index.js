@@ -21,9 +21,13 @@ function inputOperator() {
       break;
     case "3":
       masukkanAngka2();
+      pembagian(operand1, operand2);
+      konfirm();
       break;
     case "4":
       masukkanAngka2();
+      perkalian(operand1, operand2);
+      konfirm();
       break;
     case "5":
       masukkanAngka1();
@@ -62,6 +66,14 @@ function pengurangan(operand1, operand2) {
   alert(`${operand1} - ${operand2} = ${operand1 - operand2}`);
 }
 
+function pembagian(operand1, operand2) {
+  alert(`${operand1} / ${operand2} = ${operand1 / operand2}`);
+}
+
+function perkalian(operand1, operand2) {
+  alert(`${operand1} * ${operand2} = ${operand1 * operand2}`);
+}
+
 function pangkat2(operand3) {
   alert(`${operand3} * ${operand3} = ${operand3 * operand3}`);
 }
@@ -81,5 +93,3 @@ function konfirm() {
     alert("Terimakasih :)");
   }
 }
-
-// inputOperator();
