@@ -92,4 +92,6 @@ function konfirm() {
   } else {
     alert("Terimakasih :)");
   }
-}
+
+
+
