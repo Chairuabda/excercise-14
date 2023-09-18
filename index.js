@@ -21,9 +21,13 @@ function inputOperator() {
       break;
     case "3":
       masukkanAngka2();
+      Pembagian(operand1, operand2);
+      konfirm();
       break;
     case "4":
       masukkanAngka2();
+      Perkalian(operand1, operand2);
+      konfirm();
       break;
     case "5":
       masukkanAngka1();
@@ -60,6 +64,14 @@ function penjumlahan(operand1, operand2) {
 
 function pengurangan(operand1, operand2) {
   alert(`${operand1} - ${operand2} = ${operand1 - operand2}`);
+}
+
+function Pembagian(operand1, operand2) {
+  alert(`${operand1} / ${operand2} = ${operand1 / operand2}`);
+}
+
+function Perkalian(operand1, operand2) {
+  alert(`${operand1} * ${operand2} = ${operand1 * operand2}`);
 }
 
 function pangkat2(operand3) {
