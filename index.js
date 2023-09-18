@@ -4,7 +4,6 @@ let operand3;
 let prom;
 
 function inputOperator() {
-
   prom = prompt(
     `Pilih Menu:\n 1. Penjumlahan \n 2. Pengurangan \n 3. Pembagian \n 4. Perkalian \n 5. Pangkat 2 \n 6. Akar Pangkat 2 \n 7. Akar pangkat 3`
   );
@@ -94,4 +93,5 @@ function konfirm() {
     alert("Terimakasih :)");
   }
 
-inputOperator();
+
+
